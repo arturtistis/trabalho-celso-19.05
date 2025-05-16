@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.tab-content {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 320px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image {
+    position: relative;
+}
+
+.card-image img {
+    width: 100%;
+    display: block;
+}
+
+.badge {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background-color: #28a745;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-body h4 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.rating {
+    font-size: 0.9rem;
+    color: #ffc107;
+    margin-bottom: 1rem;
+}
+
+.card-body p {
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+.card-body ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1rem 0;
+}
+
+.card-body ul li {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.price {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #999;
+    margin-right: 0.5rem;
+}
+
+.new-price {
+    color: #28a745;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.comparison {
+    padding: 2rem;
+    text-align: center;
+    background-color: #ffffff;
+    margin-top: 2rem;
+}
+
+.comparison h2 {
+    margin-bottom: 1rem;
+}
+
+.comparison table {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.comparison th, .comparison td {
+    border: 1px solid #dee2e6;
+    padding: 0.75rem;
+    text-align: center;
+}
+
+.comparison th {
+    background-color: #f1f1f1;
+}
+
+.comparison td {
+    background-color: #ffffff;
+}

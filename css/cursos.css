@@ -51,33 +51,47 @@ body {
     color: #48D5D2;
 }
 
-.comparison td {
-    background-color: #fff;
-}
-.comparison table {
-    background-color: #fff;
+.bg-orange {
+    background-color: #EA900B !important;
+  }
+
+  .bg-highlight {
+    background-color: #D95804 !important;
+  }
+
+  .bg-light-orange {
+    background-color: #fff4e5;
+  }
+
+  .comparison h2 {
+    color: #D95804;
+  }
+
+  .comparison table {
     border-radius: 12px;
     overflow: hidden;
-}
+  }
 
-.comparison th {
-    background-color: #EA900B !important;
-    color: white !important;
-    font-weight: bold;
-}
+  .comparison .table-bordered td,
+  .comparison .table-bordered th {
+    border: 1px solid #E4B675;
+  }
 
-.comparison td {
-    background-color: #fff;
-    vertical-align: middle;
-}
+  .comparison .table tbody tr:nth-child(even) td {
+    background-color: #fffdfb;
+  }
 
-.comparison i.fa-check {
-    color: #48D5D2;
-}
+  .comparison .table i {
+    font-size: 1.2rem;
+  }
 
-.comparison i.fa-times {
-    color: #ccc;
-}
+  .comparison .text-success {
+    color: #48D5D2 !important;
+  }
+
+  .comparison .text-danger {
+    color: #c62828 !important;
+  }
 #conf
 {
     color: black;

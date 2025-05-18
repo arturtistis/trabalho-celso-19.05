@@ -52,12 +52,11 @@
         </div>
     </header>
 
-    <!-- Filtro de Cursos -->
     <section class="py-3">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <div class="d-flex justify-content-center">
+                    <div id="nav" class="d-flex justify-content-center" >
                         <ul class="nav nav-pills mb-4" id="courses-tab" role="tablist">
                             <li class="nav-item mx-1" role="presentation">
                                 <button class="nav-link active px-4" id="all-tab" data-bs-toggle="pill" data-bs-target="#all" type="button" role="tab">Todos</button>
@@ -78,18 +77,16 @@
         </div>
     </section>
 
-    <!-- Lista de Cursos -->
-    <section class="py-5 pricing-cards-section bg-gradient text-white" style="background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);">
+    <section class="py-5 pricing-cards-section bg-gradient text-white" style="background: linear-gradient(135deg, #6a11cb 0%, #5275b0 100%);">
         <div class="container">
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8 text-center">
+            <div class="confira">
+                <div class="col-lg-8 text-center" id="conf">
                     <h2 class="fw-bold mb-3">Confira nossos planos</h2>
                     <p class="lead">Que estão disponíveis para assinatura.</p>
                 </div>
             </div>
             
             <div class="row g-4 justify-content-center">
-                <!-- Startup One -->
                 <div class="col-lg-4 col-md-6" id="startup-one">
                     <div class="card h-100 border-0 shadow rounded-4">
                         <div class="card-body p-4 text-center">
@@ -102,7 +99,7 @@
                                 <span class="text-muted">/mês</span>
                             </div>
                             
-                            <ul class="list-unstyled text-start mb-4">
+                            <ul class="list-unstyled text-start mb-4" id="tem">
                                 <li class="py-2 border-bottom"><i class="fas fa-check text-primary me-2"></i> Acesso a vídeos básicos</li>
                                 <li class="py-2 border-bottom"><i class="fas fa-check text-primary me-2"></i> Apostilas digitais</li>
                                 <li class="py-2 border-bottom"><i class="fas fa-check text-primary me-2"></i> Modelos de documentos</li>
@@ -120,7 +117,7 @@
                 <div class="col-lg-4 col-md-6" id="startup-plus">
                     <div class="card h-100 border-0 shadow rounded-4" style="transform: scale(1.05);">
                         <div class="position-absolute top-0 start-50 translate-middle">
-                            <span class="badge bg-danger px-3 py-2 rounded-pill fs-6">MAIS POPULAR</span>
+                            <span class="badge bg-danger px-3 py-2 rounded-pill fs-6" id="mais" >MAIS POPULAR</span>
                         </div>
                         <div class="card-body p-4 text-center">
                             <div class="d-flex align-items-center justify-content-center mb-3">
@@ -146,7 +143,6 @@
                     </div>
                 </div>
                 
-                <!-- Startup Master -->
                 <div class="col-lg-4 col-md-6" id="startup-master">
                     <div class="card h-100 border-0 shadow rounded-4">
                         <div class="card-body p-4 text-center">
@@ -175,17 +171,7 @@
             </div>
         </div>
     </section>
-    
-    <!DOCTYPE html>
-    <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Programas de Startup</title>
-        <link rel="stylesheet" href="css/cursos.css">
-    </head>
-    <body>
-        <section class="tab-content">
+      <section class="tab-content">
             <div class="tab-pane" id="iniciantes">
                 <div class="card">
                     <div class="card-image">
@@ -216,29 +202,56 @@
                     </div>
                 </div>
             </div>
-            <!-- Repita para intermediários e avançados -->
         </section>
     
-        <section class="comparison">
-            <h2>Compare os Programas</h2>
-            <table>
-                <thead>
+     <section class="comparison py-5">
+    <div class="container">
+        <h2 class="text-center fw-bold mb-4">Compare os Programas</h2>
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover text-center align-middle">
+                <thead class="table-primary">
                     <tr>
-                        <th>Recursos</th>
-                        <th>Startup One</th>
-                        <th>Startup Plus</th>
-                        <th>Startup Master</th>
+                        <th scope="col">Recursos</th>
+                        <th scope="col">Startup One</th>
+                        <th scope="col">Startup Plus</th>
+                        <th scope="col">Startup Master</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr><td>Acesso a vídeos</td><td>✔</td><td>✔</td><td>✔</td></tr>
-                    <tr><td>Apostilas digitais</td><td>✔</td><td>✔</td><td>✔</td></tr>
-                    <tr><td>Modelos de documentos</td><td>✔</td><td>✔</td><td>✔</td></tr>
-                    <tr><td>Mentorias avançadas</td><td>✘</td><td>✘</td><td>✔</td></tr>
-                    <tr><td>Preço</td><td>R$ 297</td><td>R$ 497</td><td>R$ 997</td></tr>
+                    <tr>
+                        <td>Acesso a vídeos</td>
+                        <td><i class="fas fa-check text-success"></i></td>
+                        <td><i class="fas fa-check text-success"></i></td>
+                        <td><i class="fas fa-check text-success"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Apostilas digitais</td>
+                        <td><i class="fas fa-check text-success"></i></td>
+                        <td><i class="fas fa-check text-success"></i></td>
+                        <td><i class="fas fa-check text-success"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Modelos de documentos</td>
+                        <td><i class="fas fa-check text-success"></i></td>
+                        <td><i class="fas fa-check text-success"></i></td>
+                        <td><i class="fas fa-check text-success"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Mentorias avançadas</td>
+                        <td><i class="fas fa-times text-muted"></i></td>
+                        <td><i class="fas fa-times text-muted"></i></td>
+                        <td><i class="fas fa-check text-success"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Preço</td>
+                        <td><strong>R$ 297</strong></td>
+                        <td><strong>R$ 497</strong></td>
+                        <td><strong>R$ 997</strong></td>
+                    </tr>
                 </tbody>
             </table>
-        </section>
+        </div>
+    </div>
+</section>
     </body>
     </html>
-    

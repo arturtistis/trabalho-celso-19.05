@@ -30,6 +30,7 @@ footer {
 }
 
 #dados1 {
+  cursor: pointer;
   margin-top: 15px;
   margin-right: 190px;
   width: 220px;
@@ -39,11 +40,13 @@ footer {
 }
 
 #dados2 {
+  cursor: pointer;
   margin-top: 15px;
   margin-right: 190px;
 }
 
 #dados3 {
+  cursor: pointer;
   margin-top: 15px;
 
 }

@@ -7,6 +7,67 @@ body {
 footer {
     display: flex;
     flex-direction: column;
+    background-color: #E4B675;
+    justify-content: center;
+    align-items: center;
 }
 
-d
+#dados {
+  display: flex;
+  flex-direction: row;
+}
+
+#dados img {
+  margin-left: 150px;
+  margin-right: 125px;
+}
+
+.p1 {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+#dados1 {
+  margin-top: 15px;
+  margin-right: 190px;
+  width: 220px;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+}
+
+#dados2 {
+  margin-top: 15px;
+  margin-right: 190px;
+}
+
+#dados3 {
+  margin-top: 15px;
+
+}
+
+#dados3img {
+  display: flex;
+  flex-direction: row;
+}
+
+#dados3img img {
+  padding: 0;
+  margin: 0;
+  margin-right: 24px;
+}
+
+#linha {
+  width: 95%;
+  height: 1px;
+  background-color: black;
+  margin-top: 20px;
+}
+
+#p2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+p {
+  margin: 0;
+}

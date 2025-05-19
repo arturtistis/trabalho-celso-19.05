@@ -6,13 +6,7 @@ body {
       line-height: 1.6;
     }
 
-header {
-      background: #D95804;
-      color: #E4B675;
-      padding: 2rem 1.5rem;
-      text-align: center;
-      box-shadow: 0 4px 10px #48D5D2(217, 223, 231, 0.4);
-    }
+
 
 nav{
   background-color: #D95804;

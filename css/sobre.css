@@ -1,6 +1,6 @@
 body {
       margin: 0;
-      background: #fffffe;
+      background: #fceedc;
       font-family: 'Montserrat', sans-serif;
       color: #333;
       line-height: 1.6;
@@ -15,7 +15,7 @@ header {
     }
 
 nav{
-  background-color: #48D5D2;
+  background-color: #D95804;
 }
 main {
       max-width: 900px;

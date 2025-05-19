@@ -3,3 +3,7 @@
     width: 414px;
     height: 251px;
 }
+iframe{
+    width: 100vw;
+    display: flex;
+}
